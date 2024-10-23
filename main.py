@@ -3,7 +3,7 @@ from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 import input_entry
 import check_creds
-from quickstart import friday
+# from quickstart import friday
 
 gauth = GoogleAuth()
 gauth.LocalWebserverAuth() # client_secrets.json need to be in the same directory as the script
